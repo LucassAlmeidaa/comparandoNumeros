@@ -14,3 +14,24 @@ h1{
     margin-bottom: 1rem;
     background-color: rgb(143, 226, 143);
 }
+
+/*celulares */
+
+@media (max-width: 480px) {
+    .tudo{
+        margin-top: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18em;
+    }
+    h1{
+        font-size: 1em;
+        padding: 15px;
+        flex-basis: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
